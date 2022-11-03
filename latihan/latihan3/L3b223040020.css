@@ -1,0 +1,48 @@
+body {
+    font-family: Georgia;
+    background-color: aqua;
+}
+
+h1 {
+    font-family: "Comic Sans MS";
+    color: darkblue;
+    text-align: center;
+}
+
+h4 {
+    text-align: end;
+    font-style: italic;
+}
+
+h3 a {
+    color: white;
+    text-transform: uppercase;
+    font-size: medium;
+
+}
+
+h3 a:hover {
+    color:red;
+    text-decoration: none;
+}
+
+p {
+    text-align: right;
+}
+
+#p1 {
+    color:salmon;
+    text-align: center;
+}
+
+p a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a:hover {
+    background-color: blue;
+    color:white;
+}
+
+
