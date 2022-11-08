@@ -51,9 +51,8 @@ table {
 /* Style */
 body {
     font: 16px 20px arial, sans-serif;
-    background-color:#eaeaea;
+    background-color: #eaeaea;
     color: #333;
-    background-image: url(img/oriental.png);
 }
 
 .container {
@@ -67,7 +66,10 @@ body {
 }
 .header .judul {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: lighter;
+}
+.header .judul span {
+    color: rgb(242, 119, 5);
 }
 .header ul li {
     display: inline-block;
@@ -76,36 +78,60 @@ body {
 }
 a {
     text-decoration: none;
-    color: salmon;
+    color: maroon;
     padding: 5px;
 }
 .header a:hover {
-    background-color: skyblue;
+    background-color: red;
     color: white;
+    border-radius: 5px;
 }
 .hero {
-    height: 280px;
-    background-image: url(img/hero.png);
+    height: 350px;
+    background-image: url(img/tumbnail.jpeg);
     background-size: cover;
-    background-position: 0 -30px;
-    border-top: 5px solid salmon;
-    border-bottom: 5px solid skyblue ;
+    background-position: 0 -50px;
+    border-top: 5px solid maroon;
+    border-bottom: 5px solid blue;
 }
 .content {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .content h2{
-    font-size: 34px;
+    font-size: 30px;
     font-weight: bold;
 }
 .content .penulis {
     font-size: 11px;
     margin-top: 2px;
 }
+.content p .p1 {
+    font-weight: bold;
+}
 .content p {
     margin-bottom: 20px;
     font-size: 14px;
+}
+.img {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-bottom: 15px;
+    width: 80%;
+    border-radius: 5px;
+    
+}
+.sumber {
+    color: blue;
+    font-size: 12px;
+    margin-left: 45%;
+}
+.sumber:hover {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+
 }
 .footer {
     background-color: #333;
