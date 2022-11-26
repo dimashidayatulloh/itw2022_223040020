@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Modern CSS</title>
+        <style>
+            body {
+                height: 100vh;
+            }
+            .kotak1 {
+                width: 150px;
+                height: 150px;
+                background-color: #fd6464;
+                margin: auto;
+                border-radius: 10px;
+                opacity: 0.5;
+                position: relative;
+                z-index: 10;
+                text-overflow: hidden;
+                text-align: center;
+            }
+            p {
+                position: relative;
+                text-align: justify;
+            }
+            .kotak2 {
+                width: 200px;
+                height: 200px;
+                background-color: silver;
+                margin: 10vh auto;
+                box-shadow: 0 0 0 10px lightblue, 0 0 0 20px lightcoral, 0 0 0 30px lightcyan, 0 0 0 40px lightgoldenrodyellow;
+                border-radius: 90%;
+                text-align: center;
+                transform: rotate(7deg);
+                transition: 90s;
+            }
+            .kotak2:hover {
+                transform: rotate(72000deg);
+            }
+            .kotak2 p {
+                text-align: center;
+                position: relative;
+            }
+            h1 {
+                text-align: center;
+                margin-top: 100px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 100px;
+                color: #eaeaea;
+                text-shadow: 2px 2px 10px maroon;
+            }
+            .kotak3 {
+                width: 200px;
+                height: 200px;
+                background-color: lightcoral;
+                margin: auto;
+                transform: rotate(45deg);
+                transition: 90s;
+                border-radius: 50% 10px 50% 10px;
+            }
+            .kotak3:hover {
+                transform: rotate(72000deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="kotak1">Umbrella Corps</div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium minima, voluptatibus saepe nemo necessitatibus earum impedit! Laborum sapiente tempore suscipit fugit aut doloribus necessitatibus. Sequi iste iure veritatis
+            repellendus beatae!
+        </p>
+        <div class="kotak2">
+            <p>DOM <br />[Document Object Model]</p>
+        </div>
+        <h1>Dimas</h1>
+        <div class="kotak3"></div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ut quas perspiciatis numquam, odit exercitationem magni reiciendis iste praesentium voluptas rem expedita quis consequatur ea sint odio recusandae ratione nulla.</p>
+    </body>
+</html>
